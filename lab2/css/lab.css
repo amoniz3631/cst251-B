@@ -1,0 +1,79 @@
+body {
+  font-family: Helvetica, Arial, "san serif";
+  color: powderblue;
+  background-color: white;
+  padding: 25px;
+  font-size: 120%;
+}
+
+div#content {
+  width: 80%;
+  margin: 10px;
+  padding: 70px;
+  background-color: black;
+  border: outset 10px #123405;
+  border-color: powderblue;
+  height: 270vh;
+
+}
+
+h1, h2, h3 {
+  font-family: Helvetica, Arial, "san serif";
+  font-style: oblique;
+}
+div img {
+  float: right;
+  border: solid 2px black;
+  clear: right;
+  width: 300px;
+  height: 300px;
+
+}
+figcaption{
+  align-items: bottom;
+  float: right;
+  align-items: center;
+}
+
+.center-div{
+  border: outset 3px powderblue;
+  width: 30%;
+  border-radius: solid 3px black;
+  height: 250px;
+}
+.center-div img{
+  width: 150px:
+  height: auto;
+}
+
+#floated *{
+  float: right;
+  clear: both;
+}
+
+#center-horz{
+  text-align: center;
+}
+
+#center-img{
+  margin: 0pc:
+
+}
+
+#center-both{
+  position: relative;
+}
+
+#center-both img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+a {
+  font-family: Helvetica, Arial, "san serif";
+  text-decoration: underline;
+  color: powderblue;
+}
