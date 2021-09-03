@@ -21,29 +21,12 @@ h1, h2, h3 {
   font-family: Helvetica, Arial, "san serif";
   font-style: oblique;
 }
-div img {
-  float: right;
-  border: solid 2px black;
-  clear: right;
-  width: 300px;
-  height: 300px;
-
-}
-figcaption{
-  align-items: bottom;
-  float: right;
-  align-items: center;
-}
 
 .center-div{
   border: outset 3px powderblue;
   width: 30%;
   border-radius: solid 3px black;
   height: 250px;
-}
-.center-div img{
-  width: 150px:
-  height: auto;
 }
 
 #floated *{
