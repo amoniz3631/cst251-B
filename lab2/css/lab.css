@@ -17,7 +17,7 @@ div#content {
 
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: Helvetica, Arial, "san serif";
   font-style: oblique;
 }
@@ -45,18 +45,4 @@ h1, h2, h3 {
 
 #center-both{
   position: relative;
-}
-
-#center-both img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-a {
-  font-family: Helvetica, Arial, "san serif";
-  text-decoration: underline;
-  color: powderblue;
 }
