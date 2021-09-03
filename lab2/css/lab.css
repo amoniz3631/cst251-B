@@ -21,28 +21,3 @@ h1, h2 {
   font-family: Helvetica, Arial, "san serif";
   font-style: oblique;
 }
-
-.center-div{
-  border: outset 3px powderblue;
-  width: 30%;
-  border-radius: solid 3px black;
-  height: 250px;
-}
-
-#floated *{
-  float: right;
-  clear: both;
-}
-
-#center-horz{
-  text-align: center;
-}
-
-#center-img{
-  margin: 0pc:
-
-}
-
-#center-both{
-  position: relative;
-}
