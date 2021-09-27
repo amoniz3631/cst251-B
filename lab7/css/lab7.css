@@ -6,8 +6,8 @@ body {
 
 h1, h2, h3 {
   text-transform: uppercase;
-  letter-spacing: 0.5em;
-  word-spacing: 0.5em;
+  letter-spacing: 2em;
+  word-spacing: 3em;
   font-family: sans-serif;
   padding-bottom: 0;
   margin-bottom: 0.25em;
