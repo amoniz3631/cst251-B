@@ -1,0 +1,55 @@
+
+body {
+  background-color: #7b8c49;
+  font-family: 'Monospace', sans-serif;
+}
+
+#title, .summary {
+  border: solid 2px ##46612a;
+  background-color: ##6e9446;
+  padding-left: 15px;
+}
+#title h1 {
+  font-size: 220%;
+  margin-top: 15px;
+  color: black;
+}
+#title h2 {
+  font-size: 115%;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: #black;
+}
+
+.review {
+  overflow: hidden;
+  font-size: 85%;
+  font-weight: bold;
+  height: auto;
+  width: auto;
+}
+h2#challenge, #results {
+  color: #294322;
+  text-decoration: underline;
+}
+h2#problems {
+  color: #294322;
+  text-decoration: underline;
+}
+
+#photo:hover {
+  transform: scale(1.8);
+}
+.review #photo {
+  float: right;
+  height: 80vh;
+  width: auto;
+}
+.review #photo img {
+  max-height: 92%;
+  width: auto;
+  border-radius: 10px;
+  margin: 20px;
+  padding-left: 60px;
+}
