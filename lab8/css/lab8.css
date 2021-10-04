@@ -5,8 +5,8 @@ body {
 }
 
 #title, .summary {
-  border: solid 2px ##46612a;
-  background-color: ##6e9446;
+  border: solid 2px #46612a;
+  background-color: #6e9446;
   padding-left: 15px;
 }
 #title h1 {
@@ -22,7 +22,7 @@ body {
   color: #black;
 }
 
-.review {
+.summary {
   overflow: hidden;
   font-size: 85%;
   font-weight: bold;
@@ -41,12 +41,12 @@ h2#problems {
 #photo:hover {
   transform: scale(1.8);
 }
-.review #photo {
+.summary #photo {
   float: right;
   height: 80vh;
   width: auto;
 }
-.review #photo img {
+.summary #photo img {
   max-height: 92%;
   width: auto;
   border-radius: 10px;
