@@ -1,0 +1,42 @@
+
+html, body {
+  background-color: #452408;
+  background-image: url("../img/chair.gif");
+}
+
+#content {
+  margin: 50px;
+  padding: 20px;
+  border: dashed 10px #686936;
+  background-color: tan;
+  color: #452408;
+}
+
+body {
+  font-family: "Times New Roman", "Times Roman", serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: #452408;
+}
+
+h1 {
+  margin-top: 8px;
+  margin-left: -10px;
+}
+
+.feature-image {
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #686936;
+  float: right;
+}
+
+.feature-image img {
+  max-width: 100%;
+  width: 100%;
+}
