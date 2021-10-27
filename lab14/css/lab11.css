@@ -1,0 +1,66 @@
+html, body {
+  color: lightgrey;
+  background-color: black;
+  background-image: url("../img/static.gif");
+}
+
+#content {
+    display: inline-block;
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+     border: solid 3px #3b3c51;
+    background-color: #4b3232;
+}
+
+body {
+  color: darkred;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+h1 {
+  color: darkred;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+  font-size: 4em;
+}
+
+
+h1 {
+  margin-top: 8px;
+  margin-left: -10px;
+}
+
+
+.feature-image {
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #3b3c51;
+}
+
+.feature-image img {
+  max-width: 100%;
+  width: 100%;
+}
+
+
+#sidebar {
+  float: right;
+  margin: 20px;
+  width: 25%;
+  min-width: 300px;
+  border: solid 3px #3b3c51;
+  background-color: #4b3232;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  border: dotted 10px lightgrey;
+  color: grey;
+}
+
+nav a {
+  color: grey;
+}
