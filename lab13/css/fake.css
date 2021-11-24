@@ -1,0 +1,81 @@
+body {
+  background-image: url(../img/lab13_background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #36110B;
+}
+
+.content {
+  position: relative;
+  font-family: 'Lora', serif;
+}
+
+#navbar {
+  position: sticky;
+  color: black;
+  margin: 5px;
+  font-size: 0.7em;
+  font-family: 'Lora', serif;
+}
+#email {
+  float:right;
+  text-decoration: none;
+}
+#dropbtn {
+  background-color: transparent;
+  font-family: 'Lora', serif;
+  font-size: 1em;
+}
+#dropdown {
+  display: inline-block;
+  overflow: hidden;
+}
+#dropdown #dropbtn {
+  border: none;
+  outline: none;
+  margin: 0;
+  margin-left: em;
+  float: left;
+}
+#dropcont {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 1.5em;
+}
+#dropcont  a {
+  float: none;
+  padding: 6px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+#dropdown:hover #dropcont {
+  display: block;
+}
+
+h1 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 13em;
+  color: black;
+  margin-left: 6vw;
+  margin-top: 23vh;
+}
+
+p {
+  font-size: 0.8em;
+  color: white;
+  width: 35em;
+  margin-left: 8vw;
+  margin-top: -19vh;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
