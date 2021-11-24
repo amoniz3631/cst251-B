@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="css/lab.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
 
-  <title>Lab 16: Fancy CSS 2</title>
+  <title>Lab 17: CSS Layout</title>
 </head>
 
 <body>
+
+	<header>
+		<h1>Lab 17: CSS Layout</h1>
+	</header>
+
+		<nav>
+			<p class="label">See My</p><a href="../index.html" target="_blank">Homepage</a>
+			<p class="label">This Site In</p>
+			<a href="float.html">Float Layout</a>
+			<a href="flexbox.html">Flexbox Layout</a>
+			<a href="grid.html">Grid Layout</a>
+		</nav>
+
 	<main>
+		<section class="challenge">
+			<h2>Challenge</h2>
+			<p>Figuring out how to layout the elements as envisioned in our sketches
+			was quite challenging. Float seemed like it would be the easiest since we
+			have used it before, but it was actually the most challenging because of
+			elements overlapping.</p>
+		</section>
 
-<div id="content">
-	<nav id="navbar">
-		<a class="homepage" href="../index.html" target="_blank">Go to My Homepage</a>
-    <a class="csscode" href="css/lab.css" target="_blank">See this Page's CSS</a>
-	</nav>
+		<section class="problems">
+			<h2>Problems</h2>
+			<p>It was very difficult to make the main 'sections' behave responsively as
+			planned using float and flexbox. The elements would not shrink to the desired
+		 	size before moving down, and using grid was easiest but the elements would
+			not move down at all. With more practice I'm sure these are problems we could
+			solve.</p>
+		</section>
 
-<h1 class="header">Lab 16: Fancy CSS 2</h1>
-
-<div id="sections">
-			<h2 id="challenge">Challenge</h2>
-			<p>The animation and transform properties were a bit challenging to understand
-			at first because of the different properties needed for the div and the keyframes
-			selectors. The W3 examples were all about changing color or size and not
-			moving things, but after reading different tutorials online it made sense.</p>
-			<br>
-			<h2 id="problems">Problems</h2>
-			<p>The columns proved to be a bit problematic. The three columns for the
-			challenge, problems, and results sections kept bleeding into each other.
-			Forums online said to use tables which, of course, I would not do. What
-			ended up working was using breaks in between the sections and adding more
-			padding.</p>
-			<br>
-			<h2 id="results">Results</h2>
-			<p>This lab resulted in a lab16 page with columns, animations, and transformations.
-			We can now easily add background images and small animations to our pages,
-			which add a more professional feel. We are also now confident in using the
-			transform: translateX function to center different elements.
-			</p>
-</div>
-<img class="image" src="img/lab16_hearts.png">
-
-</div>
-
+		<section class="results">
+			<h2>Results</h2>
+			<p>Lab17 resulted in four pages laid out with one using no styling, and the
+			other three styled with float, flexbox, and grid. We learned how to sketch
+			a planned layout and implement it using the aforementioned tools, and we
+			also learned why these tools are important for responsive design.</p>
+		</section>
 	</main>
+
+	<aside>
+		<p id="click">Try clicking on a Thumbnail</p>
+		<a href="../lab7/index.html"><img src="img/lab17_lab7.png"></a>
+		<a href="../lab8/index.html"><img src="img/lab17_lab8.png"></a>
+		<a href="../lab11/index.html"><img src="img/lab17_lab11.png"></a>
+		<a href="../lab12/index.html"><img src="img/lab17_lab12.png"></a>
+		<a href="../lab15/index.html"><img src="img/lab17_lab15.png"></a>
+		<a href="../lab16/index.html"><img src="img/lab17_lab16.png"></a>
+	</aside>
+
+	<footer>
+		<p>Website Created by Benjamin Lundy-Paine<br>Call or text to:
+		<a href="tel:15105555401">+1 (510) 555-5401</a> or Email me at:
+		<a href="mailto:ben.lundypaine@gmail.com">ben.lundypaine@gmail.com</a></p>
+	</footer>
+
 </body>
 </html>
