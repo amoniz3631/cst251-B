@@ -1,47 +1,145 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="css/lab.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+	<!-- jQuery Library -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+	crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	crossorigin="anonymous"></script>
+	<!-- For proper rendering -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
 
-  <title>Lab 16: Fancy CSS 2</title>
+	<title>Lab 21: 2nd Draft Team Project Sketches</title>
 </head>
-
 <body>
-	<main>
+
+	<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+		<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="img/lab21_monarch.png" alt="Logo" style="width:50px;">CST 251</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="../index.html" target="_blank">Homepage</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="css/lab.css" target="_blank">CSS</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
 
 <div id="content">
-	<nav id="navbar">
-		<a class="homepage" href="../index.html" target="_blank">Go to My Homepage</a>
-    <a class="csscode" href="css/lab.css" target="_blank">See this Page's CSS</a>
-	</nav>
 
-<h1 class="header">Lab 16: Fancy CSS 2</h1>
+		<header class="m-4">
+			<h1>Lab 21: 2nd Draft Team Project Sketches</h1>
+		</header>
 
-<div id="sections">
-			<h2 id="challenge">Challenge</h2>
-			<p>The animation and transform properties were a bit challenging to understand
-			at first because of the different properties needed for the div and the keyframes
-			selectors. The W3 examples were all about changing color or size and not
-			moving things, but after reading different tutorials online it made sense.</p>
-			<br>
-			<h2 id="problems">Problems</h2>
-			<p>The columns proved to be a bit problematic. The three columns for the
-			challenge, problems, and results sections kept bleeding into each other.
-			Forums online said to use tables which, of course, I would not do. What
-			ended up working was using breaks in between the sections and adding more
-			padding.</p>
-			<br>
-			<h2 id="results">Results</h2>
-			<p>This lab resulted in a lab16 page with columns, animations, and transformations.
-			We can now easily add background images and small animations to our pages,
-			which add a more professional feel. We are also now confident in using the
-			transform: translateX function to center different elements.
-			</p>
+<main class="container">
+
+<div class="row pb-4">
+
+		<section class="col-md border border-dark">
+			<h2 class="pt-3 border-bottom">Team Feedback</h2>
+				<ol class="px-4 pt-3">
+					<li>What elements help to present a clear and interesting web page?</li>
+						<ul>
+							<li>The left 'block' navbar looks neat and could easily be standardized
+							to match other group members' pages</li>
+							<li>The portrait and biography together at the top help solidify the
+							topic and seeing George's face makes his poetry feel more personal</li>
+							<li>Putting the poetry next to the commentary and under the portrait
+							& bio breaks up the clutter and allows for better comparison</li>
+						</ul>
+					</li>
+					<li>What would you add to the design and why?</li>
+						<ul>
+							<li>More images of Carmel, SF, and George along with other audio and
+							visual additions would help define George's voice and connect him to the reader</li>
+							<li>Tabs for each poem or piece of major information placed at the
+							top of the page could reduce clutter and clarify the page's sections</li>
+							<li>Slideshows/dropdowns for photos and text could also clean up
+							the page</li>
+						</ul>
+					</li>
+					<li>What would you change or remove from the design and why?</li>
+						<ul>
+							<li>Most sketches have too much going on, some elements could be
+							organized (like with tabs), but some such as the multiple asides
+							can be consolidated</li>
+							<li>The text elements like poems, bio, and commentary should include
+							images to liven up the page, and be connected to their relevant elements</li>
+							<li>The nav bar and footer should have a format and layout that can
+							be used by all group members</li>
+						</ul>
+					</li>
+				</ol>
+		</section>
+
+<div class="w-100"></div>
+		<figure class="col-md-6 border border-dark">
+			<img src="img/lab21_og_sketches.png" alt="Insipration Sketches">
+			<figcaption>Inspiration Sketches from<a href="../lab20/index.html"
+			target="_blank">Lab 20</a></figcaption>
+		</figure>
+		<figure class="col-md-6 border border-dark">
+			<img src="img/lab21_sketch_one.png" alt="Detail Sketch 1">
+				<figcaption>Detail Sketch 1</figcaption>
+		</figure>
+		<figure class="col-md-6 border border-dark">
+			<img src="img/lab21_sketch_two.png" alt="Detail Sketch 2">
+				<figcaption>Detail Sketch 2</figcaption>
+		</figure>
+		<figure class="col-md-6 border border-dark">
+			<img src="img/lab21_sketch_three.png" alt="Detail Sketch 3">
+				<figcaption>Detail Sketch 3</figcaption>
+		</figure>
+
+<div class="w-100"></div>
+
+	    <section class="col-md-4 border border-dark">
+				<h2 class="pt-3 border-bottom">Challenge</h2>
+				<p class="p-3">This lab actually ended up being less challenging for me
+				than lab 20, I could put more detail and time into my sketches while still
+				remembering that they didn't have to be perfect. What was difficult was
+				incorporating my class and teammates feedback such as reducing clutter and
+				the addition of certain elements.</p>
+			</section>
+			<section class="col-md-4 border border-dark">
+				<h2 class="pt-3 border-bottom">Problems</h2>
+				<p class="p-3">I didn't run into any problems doing this lab, I made the
+				webpage using bootstrap and other things that we've learned and made my
+				sketches following the previous and new guidelines and examples. If anything
+				was a problem I'd say it was having too many ideas!</p>
+			</section>
+			<section class="col-md-4 border border-dark">
+				<h2 class="pt-3 border-bottom">Results</h2>
+				<p class="p-3">On completion of this lab I now have three great sketches
+				that I can share with my team and use as a basis for building my webpage
+				and to inform some of the unified elements such as the nav bar on all our
+				team member's pages. This lab has gotten me excited to make my page and
+				the past few labs have introduced and given me needed practice using several
+				helpful tools for brainstorming and prototyping.</p>
+			</section>
+		</div>
+
 </div>
-<img class="image" src="img/lab16_hearts.png">
-
-</div>
-
-	</main>
+</main>
 </body>
 </html>
