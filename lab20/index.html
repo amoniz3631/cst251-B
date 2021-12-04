@@ -1,47 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+	<!-- jQuery Library -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+	crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	crossorigin="anonymous"></script>
+	<!-- For proper rendering -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
 
-  <title>Lab 16: Fancy CSS 2</title>
+	<title>Lab 20: Team Project Sketches</title>
 </head>
-
 <body>
-	<main>
+	<div id="content">
 
-<div id="content">
-	<nav id="navbar">
-		<a class="homepage" href="../index.html" target="_blank">Go to My Homepage</a>
-    <a class="csscode" href="css/lab.css" target="_blank">See this Page's CSS</a>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-info sticky-top">
+		<div class="container-fluid">
+		<a class="navbar-brand" href="#">CST 251</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="../index.html" target="_blank">Homepage</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="css/lab.css" target="_blank">CSS</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
-
-<h1 class="header">Lab 16: Fancy CSS 2</h1>
-
-<div id="sections">
-			<h2 id="challenge">Challenge</h2>
-			<p>The animation and transform properties were a bit challenging to understand
-			at first because of the different properties needed for the div and the keyframes
-			selectors. The W3 examples were all about changing color or size and not
-			moving things, but after reading different tutorials online it made sense.</p>
-			<br>
-			<h2 id="problems">Problems</h2>
-			<p>The columns proved to be a bit problematic. The three columns for the
-			challenge, problems, and results sections kept bleeding into each other.
-			Forums online said to use tables which, of course, I would not do. What
-			ended up working was using breaks in between the sections and adding more
-			padding.</p>
-			<br>
-			<h2 id="results">Results</h2>
-			<p>This lab resulted in a lab16 page with columns, animations, and transformations.
-			We can now easily add background images and small animations to our pages,
-			which add a more professional feel. We are also now confident in using the
-			transform: translateX function to center different elements.
-			</p>
-</div>
-<img class="image" src="img/lab16_hearts.png">
-
 </div>
 
+<div class="container-fluid">
+	<div class="mx-3">
+
+		<header class="row my-5">
+			<h1 class="col">Lab 20: Team Project Sketches</h1>
+		</header>
+
+	<main class="row">
+
+	    <section class="col-md-4">
+				<h2 class="border-bottom">Challenge</h2>
+				<p class= "p-4"><p>The hardest part of this lab was ensuring that our team had a cohesive idea for our site.</p>
+			</section>
+			<section class="col-md-4">
+				<h2 class="border-bottom">Problems</h2>
+				<p class= "p-4">The only problem we had with this lab was getting in touch with all of our teammates.</p>
+			</section>
+			<section class="col-md-4">
+				<h2 class="border-bottom">Results</h2>
+				<p class= "p-4"> This lab resulted in us having a vauge idea of what we wanted for our final project.</p>
+			</section>
+			<figure class="col-md-5">
+				<img src="img/poem_comm_bio.png" alt="Even Poems Commentary and Biography Sketches">
+					<figcaption>Even Poems Commentary and Biography Sketches</figcaption>
+			</figure>
+			<figure class="col-md-5">
+				<img src="img/multi_poem_comm.png" alt="Multi Poem Commentary Focused Sketches">
+					<figcaption>Multi Poem Commentary Focused Sketches</figcaption>
+			</figure>
+			<figure class="col-md-5">
+				<img src="img/single_poem_bio.png" alt="Single Poem Biography Focused Sketches">
+					<figcaption>Single Poem Biography Focused Sketches</figcaption>
+			</figure>
+	</div>
+</div>
 	</main>
+	</div>
 </body>
 </html>

@@ -1,0 +1,38 @@
+body {
+  background-color: #182f45;
+  color: white;
+}
+.navbar {
+  background-color: #7c2b4d !important;
+}
+.nav-link {
+  color: white !important;
+}
+header {
+ text-align: center;
+}
+.border-bottom {
+  border-width: 4px !important;
+  border-color: #d5e24c !important;
+  margin-bottom: 0;
+}
+p {
+  background-color: #fefeda;
+  color: black;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
